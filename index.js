@@ -74,7 +74,7 @@ app.post("/login", (req,res) => {
          })
       }
    // Check for user in array users
-   let user = users.find(zizi)
+   let user = users.find(TEST)
    
      
      res.send({
